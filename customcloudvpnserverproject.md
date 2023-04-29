@@ -526,16 +526,21 @@ Save and exit.
 `nano ~/.bashrc`
 
 In the file, paste the following 
+
+clear command
 `alias c='clear'`
-	clear command
+
+updates
 `alias update='sudo apt-get update && sudo apt-get upgrade'`
-	updates
+
+show open ports
 `alias ports='netstat -tulanp'`
-	show open ports
+
+shortcut for history
 `alias h='history'`
-	shortcut for history
+
+quick way to get out of current directory
 `alias ..='cd ..'`
-	quick way to get out of current directory
 
 Save and exit and reload console.
 

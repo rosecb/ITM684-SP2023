@@ -22,11 +22,10 @@ This will be the OpenVPN server. Click [here](https://www.digitalocean.com/commu
 	* `usermod -aG sudo rose`
 
 Useful things to know:
-* `ls -l /etc/`
 * Showing the user list
-	* `/etc/passwd`
+	* `cat /etc/passwd`
 * Showing the sudoers
-	* `/etc/sudoers`
+	* `grep '^sudo:.*$' /etc/group | cut -d: -f4`
 
 ## Step 3: Set Up Basic Firewall Rules on VPN Server
 

@@ -357,10 +357,11 @@ Transfer the client config file `client1.opvn` to the device you plan to use as 
 	* If all ends fails, shut down your computer and log back into digital ocean and restore your previous snapshot 
 
 OpenVPN Connect
-![[Pasted image 20230428132329.png]]
+![Pasted image 20230428132329](https://user-images.githubusercontent.com/70050375/235272353-700cab31-8866-4f03-b06a-ca4634695cc4.png)
 
 Tunnelblick
-![[Pasted image 20230428132358.png]]
+![Pasted image 20230428132358](https://user-images.githubusercontent.com/70050375/235272377-6eef4378-9a88-4e45-aba4-7080d312a309.png)
+
 
 ## Step 16: Installing Wireguard and IPSec using AlgoVPN Scripts
 
@@ -403,7 +404,7 @@ Run Algo install script
 	* Continue answering the questions 
 		* Put `localhost` and the DO server IP when prompted
 
-![[Pasted image 20230428131935.png]]
+![Pasted image 20230428131935](https://user-images.githubusercontent.com/70050375/235272390-b99505d8-7c52-40d5-b8f5-d5bcab3f0f2a.png)
 
 ## Step 17: Test & Fix your OpenVPN Server Configs changed by the Algo scripts
 
@@ -415,7 +416,7 @@ Run Algo install script
 	* `sudo ufw allow 500/udp`
 	* `sudo ufw allow 4500/udp`
 
-![[Pasted image 20230428132044.png]]
+![Pasted image 20230428132044](https://user-images.githubusercontent.com/70050375/235272398-0b4fbab9-67d9-421c-bae5-03e59023d83f.png)
 
 * Test OpenVPN to ensure that it works like before
 
@@ -431,7 +432,7 @@ In the terminal, not in the server but terminal in general:
 `sudo scp -P 21999 rose@146.190.78.68:~/algo/configs/146.190.78.68/wireguard/desktop.conf ~/Downloads/`
 
 Wireguard:
-![[Pasted image 20230428134842.png]]
+![Pasted image 20230428134842](https://user-images.githubusercontent.com/70050375/235272413-67a73d0c-cadc-4946-a876-7ba8887bd3d3.png)
 
 **SAVE 2 or more SNAPSHOTS on DIgitalOcean**
 

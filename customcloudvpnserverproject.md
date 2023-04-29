@@ -6,7 +6,6 @@
 * Image: Ubuntu 22.04 LTS x64
 * Size
 	* Droplet: Basic
-	* CPU: 
 	* Plan: $6/mo
 * Create root password & host name
 	* ***openvpnserver***

@@ -1,4 +1,4 @@
-# ITM684-SP2023
+# ITM 684 Table of Contents
 
 Projects for ITM 684, just documentations.
 

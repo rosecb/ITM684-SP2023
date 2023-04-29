@@ -21,6 +21,13 @@ This will be the OpenVPN server. Click [here](https://www.digitalocean.com/commu
 * Grant administrative privileges
 	* `usermod -aG sudo rose`
 
+Useful things to know:
+* `ls -l /etc/`
+* Showing the user list
+	* `/etc/passwd`
+* Showing the sudoers
+	* `/etc/sudoers`
+
 ## Step 3: Set Up Basic Firewall Rules on VPN Server
 
  * View list of installed UFW profiles

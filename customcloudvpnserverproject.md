@@ -1,3 +1,5 @@
+# Custom Cloud VPN Server Project Documentation
+
 ## Step 1: **Deploy an Ubuntu 22.0.4 LTS server to Digital Ocean**
 * Choose region: New York 
 	* Datacenter: NYC1

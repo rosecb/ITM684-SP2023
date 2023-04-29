@@ -359,9 +359,9 @@ Transfer the client config file `client1.opvn` to the device you plan to use as 
 OpenVPN Connect
 ![Pasted image 20230428132329](https://user-images.githubusercontent.com/70050375/235272353-700cab31-8866-4f03-b06a-ca4634695cc4.png)
 
+
 Tunnelblick
 ![Pasted image 20230428132358](https://user-images.githubusercontent.com/70050375/235272377-6eef4378-9a88-4e45-aba4-7080d312a309.png)
-
 
 ## Step 16: Installing Wireguard and IPSec using AlgoVPN Scripts
 
